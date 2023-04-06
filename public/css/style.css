@@ -1,0 +1,165 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #f8f8f8;
+}
+
+.register-box {
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #000;
+	background-color: #fff;
+	padding: 30px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+
+.register-box h2 {
+	margin: 0 0 30px;
+	padding: 0;
+	font-size: 22px;
+}
+
+.register-box .user-box {
+	position: relative;
+}
+
+.register-box .user-box input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	background: transparent;
+}
+
+.register-box .user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #000;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.register-box .user-box input:focus ~ label,
+.register-box .user-box input:valid ~ label {
+	top: -20px;
+	left: 0;
+	color: #000;
+	font-size: 12px;
+}
+
+.register-box button {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.register-box button:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.register-box a {
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.register-box .age-box label {
+	margin-right: 5px;
+}
+.login-box {
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #000;
+	background-color: #fff;
+	padding: 30px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+
+.login-box h2 {
+	margin: 0 0 30px;
+	padding: 0;
+	font-size: 22px;
+}
+
+.login-box .user-box {
+	position: relative;
+}
+
+.login-box .user-box input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	background: transparent;
+}
+
+.login-box .user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #000;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+	top: -20px;
+	left: 0;
+	color: #000;
+	font-size: 12px;
+}
+
+.login-box button {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.login-box button:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.login-box a {
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+}

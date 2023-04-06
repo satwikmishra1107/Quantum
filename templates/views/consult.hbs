@@ -1,0 +1,35 @@
+{{>head}}
+
+<body>
+
+{{>navbar}}
+
+    <section class="kontent">
+        <div class="search-container">
+            <form id="search-form">
+                <input type="text" class="search-input" placeholder="Search for a city...">
+                <button type="submit" class="search-button"><i class="ri-search-line"></i></button>
+            </form>
+        </div>
+        <div class="display-area">
+
+        </div>
+        <div class="kontent-img">
+
+        </div>
+        {{!-- <div class="chatbot">
+            <a href="#"><i class="ri-chat-voice-line"></i></a>
+        </div>
+        <div class="chatbox">
+        </div> --}}
+            {{>chatbot}}
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/response.js"></script>
+
+</body>
+
+</html>

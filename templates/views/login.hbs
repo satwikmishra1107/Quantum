@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login/Signup</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="login-box">
+		{{#if errorMessage}}
+    <p class="error">{{ errorMessage }}</p>
+        {{/if}}
+		<h2>Login/Signup</h2>
+		<form action="/login" method="post">
+			<div class="user-box">
+				<input type="text" name="email" required="">
+				<label>email</label>
+			</div>
+			<div class="user-box">
+				<input type="password" name="password" required="">
+				<label>Password</label>
+			</div>
+			<button type="submit" id="loginBtn">Login</button>
+			<a href="/register" id="signupBtn">Sign up</a>
+		</form>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
